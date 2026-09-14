@@ -4,6 +4,8 @@
     {
        
         _MarkerWriteColor ("Marker Color", Color) = (0,0,0,0)
+		_WriteAmmount ("Write Ammount (negative to remove)", Range(-1,1)) = 1.0
+
 		_ColorR ("Color Red Channel Multiplyer", Range(0.0, 1.0)) = 1
         _ColorG ("Color Green Channel Multiplyer", Range(0.0, 1.0)) = 1
         _ColorB ("Color Blue Channel Multiplyer", Range(0.0, 1.0)) = 1

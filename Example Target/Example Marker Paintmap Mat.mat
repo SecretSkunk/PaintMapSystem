@@ -7,15 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Example Capsule Shader
-  m_Shader: {fileID: 4800000, guid: 0b7113dea2069fc4e8943843eff19f70, type: 3}
+  m_Name: Example Marker Paintmap Mat
+  m_Shader: {fileID: 4800000, guid: ab9fdfe830c8e1c4998131985853f94c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _EMISSION
-  - _ENABLE_GEOMETRIC_SPECULAR_AA
+  m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -42,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 8400000, guid: fc850157d350a2644ab0aa55a370d375, type: 2}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 8400000, guid: fc850157d350a2644ab0aa55a370d375, type: 2}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,30 +59,43 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Bicubic: 0
     - _BumpScale: 1
+    - _CameraRadius: 0.001
+    - _CameraShape: 1
+    - _ClipWidth: 0.006
+    - _ClipWidthToSearch: 0.02
+    - _ColorA: 0
+    - _ColorB: 0
+    - _ColorG: 0
+    - _ColorR: 0
     - _Cutoff: 0.5
+    - _DepthBulgeFadeLength: 0.009
+    - _DepthBulgeHeight: -0.1769
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EnableGeometricSpecularAA: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.725
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LightmapType: 0
-    - _Metallic: 0.259
+    - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _SpecularAAScreenSpaceVariance: 0.1
-    - _SpecularAAThreshold: 0.2
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Transparency: 1
     - _UVSec: 0
+    - _WriteAmmount: 1
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.30588236}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MarkerWriteColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PaintMapWriteColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
